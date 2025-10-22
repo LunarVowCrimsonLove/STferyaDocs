@@ -5,7 +5,18 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "圣芙蕾雅学院云端服务中心",
   description: "云崽机器人 + ICQQ 完整配置指南",
-  base: "/STferyaDocs/",
+  base: "/",
+  
+  // 构建配置
+  dest: "src/.vuepress/dist",
+  temp: "src/.vuepress/.temp",
+  cache: "src/.vuepress/.cache",
+  
+  // 头部配置
+  head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["meta", { name: "viewport", content: "width=device-width,initial-scale=1,user-scalable=no" }],
+  ],
   
   theme: hopeTheme({
     // 加密配置
