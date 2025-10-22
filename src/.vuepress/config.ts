@@ -5,6 +5,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "圣芙蕾雅学院云端服务中心",
   description: "云崽机器人 + ICQQ 完整配置指南",
+  base: "/STferyaDocs/",
   
   theme: hopeTheme({
     // 加密配置
